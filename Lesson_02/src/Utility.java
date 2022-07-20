@@ -25,20 +25,20 @@ public class Utility {
         }
         return pow;
     }
-    public static int findRound(double x)
-    {
-        int result = 0;
-        if(x % 1 >= 0.5)
-        {
-            result = (int)x / 1 + 1;
-        }
-        else if(x % 1 < 0.5)
-        {
-            result = (int)x;
-        }
-        return result;
-    }
-    public static double findRound1(double x, int k)
+//    public static int findRound(double x)
+//    {
+//        int result = 0;
+//        if(x % 1 >= 0.5)
+//        {
+//            result = (int)x + 1;
+//        }
+//        else if(x % 1 < 0.5)
+//        {
+//            result = (int)x;
+//        }
+//        return result;
+//    }
+    public static double findRound(double x, int k)
     {
         int m = findPow(10,k);
         return (int)(x*m+0.5)*1.0/m;

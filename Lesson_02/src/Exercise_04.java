@@ -24,6 +24,16 @@ public class Exercise_04 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter k: ");
         int k = scanner.nextInt();
+        for(int i =0; i < arr1.length; i++)
+        {
+            if(arr1[i] == arr1[i+1])
+            {
+                continue;
+            }
+            else
+            {
 
+            }
+        }
     }
 }
